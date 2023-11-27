@@ -1,0 +1,109 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    font-family: 'Red Hat Display',sans-serif;
+    background-image: url("https://raw.githubusercontent.com/Lea225/order-summary-component-main/4e5c6057a68b450d9df280ce3142618f3e708982/images/pattern-background-desktop.svg"); 
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.card{
+    margin: 3.5rem auto;
+    border-radius: 20px;
+    text-align: center; 
+    background-color: hsl(0, 0%, 100%);
+    font-size: 16px;
+}
+.main-img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.elements{
+    margin: 1.5rem;
+}
+h2{
+    font-size: 15px;
+    text-align: center;
+}
+h1,h2{
+    color: hsl(223, 47%, 23%);
+}
+span{
+    display: block;
+    margin-left: 1.5rem;
+}
+p{
+    color: hsl(223, 47%, 23%);
+    margin-top: 5%;
+}
+.main-p{
+    text-align: center;
+}
+.icon-music{
+    height: 5vh;
+    margin-left: 1.5rem;
+}
+.icon-music,.change{
+    align-self: center;
+}   
+.btns{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.change,.btn1,.btn2{
+    font-weight: bold;
+}
+.change:hover{
+    text-decoration: none;
+}
+.change{
+    color: hsl(245, 75%, 52%);
+    margin-left: 20%;
+}
+.flex-links{
+    display: flex;
+    margin-bottom: 5%;
+    color: hsl(224, 23%, 55%);
+    background-color: hsla(225, 100%, 94%, 0.3);
+}
+.btn1,.btn2{
+    text-decoration: none;
+}
+.btn1:hover{
+    background-color: hsla(245, 75%, 52%,0.8);
+}
+.btn1{
+    padding: 10px 20px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px hsla(223, 47%, 23%,0.5);
+}
+.btn2:hover{
+    color: hsl(223, 47%, 23%);
+}
+.btn2{
+    color: hsl(224, 23%, 55%);
+    padding: 10px 50px;
+    margin-top: 5%;
+    margin-bottom: 1rem;
+}
+@media (max-width: 1440px) {
+    .card{
+        width: 25%;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1200px) {
+    .card{
+        width: 50%;
+    }
+}
+@media (max-width: 1000px) {
+    .card{
+        width: 85%;
+    }
+}
